@@ -1,0 +1,64 @@
+nav {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: auto;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .search-input {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: auto;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+
+
+  }
+
+  ul {
+    grid-column: 3/-1;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+
+      list-style-type: none;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  input {
+    width: 80%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: transparent;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    &::placeholder {
+      color: white;
+      text-align: center;
+      opacity: .2;
+    }
+
+  }
+}
