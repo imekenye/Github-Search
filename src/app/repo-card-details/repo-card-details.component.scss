@@ -1,0 +1,32 @@
+@import "../app.component";
+
+.card {
+  h2 {
+    color: $accent-color;
+    font-size: 26px;
+  }
+
+  p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .bottom-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .published-date {
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 4px;
+    background-image: linear-gradient(90deg, #82BBFF 0%, #4B85FF 100%);
+
+  }
+
+  .card-logo {}
+}
