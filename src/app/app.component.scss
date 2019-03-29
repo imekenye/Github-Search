@@ -1,0 +1,35 @@
+$primary-color:#31394C;
+$secondary-color:#212735;
+$accent-color:#4B85FF;
+
+$Grey-color01:#3D465E;
+
+$Gradient01: linear-gradient(to right, #82BBFF, #4B85FF);
+$Gradient02: linear-gradient(to top, #394256, #31394C);
+$Gradient03: linear-gradient(to top, #39425600, #31394C);
+
+.container {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 70px auto;
+}
+
+app-aside {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+
+app-header {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  background-color: #212735;
+  color: white;
+}
+
+app-main-area {
+  grid-column: 2/-1;
+  grid-row: 2/-1;
+  height: 100vh;
+  width: 100%;
+  background-color: #212735;
+}
