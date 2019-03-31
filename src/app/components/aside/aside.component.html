@@ -4,36 +4,34 @@
       <img src="../../assets/profilebg.jpg" alt="">
     </div> -->
     <div class="photo-background">
-      <img src="../../assets/profilebg.jpg" alt="">
+      <img src="{{users.avatar_url}}" alt="">
     </div>
   </div>
   <div class="username">
-    <h2>@Username</h2>
+    <h2>{{users.name}}</h2>
   </div>
 
   <div class="stats">
     <div class="followers">
       <img src="../../assets/followersicon.svg" alt="">
       <p>Followers</p>
-      <span>124</span>
+      <span>{{users.followers}}</span>
     </div>
     <div class="following">
       <img src="../../assets/followingicon.svg" alt="">
       <p>Following</p>
-      <span>3</span>
+      <span>{{users.following}}</span>
     </div>
     <div class="repo">
       <img src="../../assets/repoicon.svg" alt="">
       <p>Repositories</p>
-      <span>3</span>
+      <span>{{users.public_repos}}</span>
     </div>
   </div>
 
   <div class="biography">
     <h2>Biography</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique sed dolorem totam maiores
-      laboriosam, tenetur veritatis ratione sequi soluta odio? Suscipit ipsa natus ad corporis laboriosam cum
-      exercitationem esse?</p>
+    <p>{{users.bio}}</p>
   </div>
 
   <div class="date">created April 13 2016</div>
