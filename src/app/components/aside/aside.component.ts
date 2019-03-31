@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Users } from "../../user";
+import { Repos } from "../../repos";
 import { DataService } from "../../services/data.service";
 
 @Component({
@@ -9,7 +10,7 @@ import { DataService } from "../../services/data.service";
 })
 export class AsideComponent implements OnInit {
   users: any = Users;
-  repos: any = [];
+  repos: any = Repos;
   created_at: any;
   username: string;
 

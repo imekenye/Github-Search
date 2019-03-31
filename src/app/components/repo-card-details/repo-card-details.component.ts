@@ -9,7 +9,7 @@ import { Repos } from "../../repos";
   styleUrls: ["./repo-card-details.component.scss"]
 })
 export class RepoCardDetailsComponent implements OnInit {
-  repos: any = [Repos];
+  repos: any = Repos;
   reponame: string;
   show: number;
 
