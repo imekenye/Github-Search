@@ -11,12 +11,14 @@ h1 {
 
 main {
   padding: 0 38px;
-  height: 100%;
-  // background-color: $secondary-color;
+  background-color: $secondary-color;
 }
+
+
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  grid-gap: 10px;
 }
