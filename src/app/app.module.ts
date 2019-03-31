@@ -11,8 +11,6 @@ import { RepoCardComponent } from "./components/repo-card/repo-card.component";
 import { RepoCardDetailsComponent } from "./components/repo-card-details/repo-card-details.component";
 import { MainAreaComponent } from "./components/main-area/main-area.component";
 import { DataService } from "./services/data.service";
-import { DateCountPipe } from './date-count.pipe';
-import { ChangecolorDirective } from './changecolor.directive';
 
 @NgModule({
   declarations: [
@@ -21,9 +19,7 @@ import { ChangecolorDirective } from './changecolor.directive';
     HeaderComponent,
     RepoCardComponent,
     RepoCardDetailsComponent,
-    MainAreaComponent,
-    DateCountPipe,
-    ChangecolorDirective
+    MainAreaComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [DataService],
