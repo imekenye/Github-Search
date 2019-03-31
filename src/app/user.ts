@@ -7,5 +7,15 @@ export class Users {
     public public_repos: number,
     public bio: string,
     public created_at: Date
-  ) {}
+  ) {
+    this.name = name;
+
+    this.avatar_url = avatar_url;
+    this.name = name;
+    this.followers = followers;
+    this.following = following;
+    this.public_repos = public_repos;
+    this.bio = bio;
+    this.created_at = created_at;
+  }
 }
