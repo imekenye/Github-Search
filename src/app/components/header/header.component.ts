@@ -8,7 +8,7 @@ import { Users } from "../../user";
   styleUrls: ["./header.component.scss"]
 })
 export class HeaderComponent implements OnInit {
-  users: any = [Users];
+  users: any = Users;
   username: string;
   repos: any = [];
 
