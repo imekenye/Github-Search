@@ -1,6 +1,17 @@
 @import "../../app.component.scss";
 
 .card {
+  height: 208px;
+  width: 429px;
+  background-color: #30394D;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+  border-radius: 20px;
+  z-index: 1000;
+  padding: 40px;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+
+
   h2 {
     color: $accent-color;
     font-size: 26px;
