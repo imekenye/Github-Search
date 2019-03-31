@@ -2,7 +2,7 @@
   <h2 class="heading">{{repo.name}}</h2>
   <p>{{repo.description}}</p>
   <div class="bottom-details">
-    <div class="published-date">{{repo.created_at}}</div>
+    <div class="published-date">{{repo.created_at | dateConvert}}</div>
     <div class="card-logo">
       <img src="../../assets/linklogo.svg" alt="">
     </div>
