@@ -1,3 +1,5 @@
+@import '../../app.component.scss';
+
 h1 {
   font-size: 130px;
   color: rgba(255, 255, 255, 0.2);
@@ -9,4 +11,12 @@ h1 {
 
 main {
   padding: 0 38px;
+  height: 100%;
+  // background-color: $secondary-color;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
