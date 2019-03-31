@@ -11,6 +11,7 @@ import { RepoCardComponent } from "./components/repo-card/repo-card.component";
 import { RepoCardDetailsComponent } from "./components/repo-card-details/repo-card-details.component";
 import { MainAreaComponent } from "./components/main-area/main-area.component";
 import { DataService } from "./services/data.service";
+import { DateConvertPipe } from './date-convert.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DataService } from "./services/data.service";
     HeaderComponent,
     RepoCardComponent,
     RepoCardDetailsComponent,
-    MainAreaComponent
+    MainAreaComponent,
+    DateConvertPipe
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [DataService],
