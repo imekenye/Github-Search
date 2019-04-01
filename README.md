@@ -41,7 +41,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Live link
 
-Use this link to see the web-page
+Use this link to see the web-page [Gitsearch Link](https://gitsearch.netlify.com)
 
 
 
